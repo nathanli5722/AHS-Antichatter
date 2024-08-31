@@ -28,7 +28,7 @@ namespace ANTICHATTER
 
 
             
-            LastPos = input;
+            LastPos = Vector2.Multiply(Vector2.Add(input, LastPos), 0.5f);
             return LastPos;
         }
 
