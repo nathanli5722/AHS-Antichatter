@@ -1,10 +1,10 @@
-using System;
+﻿using System;
 using System.Numerics;
 using OpenTabletDriver.Plugin.Attributes;
 using OpenTabletDriver.Plugin.Tablet;
 using OpenTabletDriver.Plugin.Output;
 
-
+namespace ANTICHATTER;
 //ignore most of the stuff, its for compatibility lol
 namespace ANTICHATTER
 {
@@ -31,16 +31,6 @@ namespace ANTICHATTER
             LastPos = Vector2.Multiply(Vector2.Add(input, LastPos), 0.5f);
             return LastPos;
         }
-
-
-
-
-
-
-
-
-
-
 
 
 
