@@ -1,0 +1,5 @@
+/workspaces/AHS-Antichatter/ANTICHATTER/obj/Debug/net8.0/ANTICHATTER.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/AHS-Antichatter/ANTICHATTER/obj/Debug/net8.0/ANTICHATTER.AssemblyInfoInputs.cache
+/workspaces/AHS-Antichatter/ANTICHATTER/obj/Debug/net8.0/ANTICHATTER.AssemblyInfo.cs
+/workspaces/AHS-Antichatter/ANTICHATTER/obj/Debug/net8.0/ANTICHATTER.csproj.CoreCompileInputs.cache
+/workspaces/AHS-Antichatter/ANTICHATTER/obj/Debug/net8.0/ANTICHATTER.sourcelink.json
