@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "OpenTabletDriver.Plugin/0.6.4": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/OpenTabletDriver.Plugin.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OpenTabletDriver.Plugin.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "OpenTabletDriver.Plugin/0.6.4": {
+      "type": "project",
+      "path": "../.modules/OpenTabletDriver/OpenTabletDriver.Plugin/OpenTabletDriver.Plugin.csproj",
+      "msbuildProject": "../.modules/OpenTabletDriver/OpenTabletDriver.Plugin/OpenTabletDriver.Plugin.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "OpenTabletDriver.Plugin >= 0.6.4"
+    ]
   },
   "packageFolders": {
     "/home/vscode/.nuget/packages/": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/workspaces/AHS-Antichatter/.modules/OpenTabletDriver/OpenTabletDriver.Plugin/OpenTabletDriver.Plugin.csproj": {
+              "projectPath": "/workspaces/AHS-Antichatter/.modules/OpenTabletDriver/OpenTabletDriver.Plugin/OpenTabletDriver.Plugin.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -77,5 +100,16 @@
         "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.401/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project OpenTabletDriver.Plugin is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Project OpenTabletDriver.Plugin supports: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "OpenTabletDriver.Plugin",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

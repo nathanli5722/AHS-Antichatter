@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ANTICHATTER")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22876ee914fbacf8b26ed4fc80ff729ba209458e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01babbf8cb0a79c30e04617c4a6c1c53069551ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("ANTICHATTER")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ANTICHATTER")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
