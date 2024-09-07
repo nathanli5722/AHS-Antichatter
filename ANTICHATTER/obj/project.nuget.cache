@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "dQu9038+U6k=",
+  "success": false,
+  "projectFilePath": "/workspaces/AHS-Antichatter/ANTICHATTER/ANTICHATTER.csproj",
+  "expectedPackageFiles": [
+    "/home/vscode/.nuget/packages/microsoft.netcore.app.ref/6.0.33/microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
+    "/home/vscode/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.33/microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project OpenTabletDriver.Plugin is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Project OpenTabletDriver.Plugin supports: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "OpenTabletDriver.Plugin",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
